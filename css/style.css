@@ -1,0 +1,9 @@
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+
+.angular-google-map-container { height: 400px; }
+
+img {
+
+  width:90%;
+}
