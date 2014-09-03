@@ -52,12 +52,12 @@ app.controller('SnafuController',["$scope", "$http",function($scope, $http){
     }; 
 
       $scope.getWeather = function(city){
-        var city = "SW1";
+        var city = city;
         var httpCall = "";
 
         console.log(city)
 
-        httpCall = "http://www.myweather2.com/developer/forecast.ashx?uac=gCkW7nA4uM&output=json&query="+city;
+        httpCall = "http://api.openweathermap.org/data/2.5/weather?q="+city;
 
      
 
